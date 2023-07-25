@@ -1,0 +1,84 @@
+<style type="text/css">
+	:root {
+		--92nyblue: #8eaae2;
+		--92nygreen: #21805e;
+		--92nypink: #edabba;
+		--92nymagenta: #990d61;
+		--92nyred: #ff5447;
+	}
+
+	.cycle-bg-image {
+		background-position: center top;
+	}
+
+	.hero-panel__suffix {
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.flex-grid {
+		padding: 0;
+	}
+
+    .ms-hero__description .button-group {
+        display: flex;
+        justify-content: center;
+		flex-flow: wrap;
+    }
+
+    .ms-hero__description .button-group .btn {
+        display: flex;
+        align-items: center;
+    }
+
+	/* .ms-hero--inverted .btn:hover {
+	color: #000;
+	background-color: #fff;
+	} */
+
+    .btn--accent,
+    .ms-hero--inverted .btn.btn--accent {
+        background-color: var(--92nymagenta);
+        color: #fff;
+    }
+
+    .ms-hero--inverted .btn:hover,
+    
+
+
+
+
+	@media (min-width: 50em) {
+		.hero-panel__prefix,
+		.hero-panel__suffix {
+			font-size: 1.5rem;
+		}
+
+		.u-padded-vertical.u-padded-vertical--lg {
+			padding: 32px 0;
+		}
+
+		.area-flex-grid:nth-of-type(odd) .flex-grid__item {
+			-ms-flex-order: unset;
+			order: unset;
+		}
+
+		.area-flex-grid:nth-of-type(odd) .flex-grid__item:nth-child(2) {
+			-ms-flex-order: unset;
+			order: unset;
+		}
+
+		.fonts-loaded h1.hero-panel__title,
+		.hero-panel__title {
+			font-size: 4.25rem;
+		}
+	}
+
+	@media (min-width: 70em) {
+		#hero-slider .hero-panel.has-image {
+			min-height: 80vh;
+		}
+	}
+</style>
+
+
