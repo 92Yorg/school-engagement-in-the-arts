@@ -1,0 +1,54 @@
+<style type="text/css">.media-panels .o-grid__item:nth-of-type(3n+1) {
+	    margin-left: unset;
+	}
+
+	.vid-tb a {
+	    position: relative;
+	    cursor: pointer;
+	    text-align: center;
+	}
+
+	.vid-tb .o-grid__item:nth-child(-n+2) a:before {
+	    pointer-events: none;
+	    position: absolute;
+	    top: 82px;
+	    left: 46%;
+	    transform: none;
+	    font-size: 1.5em;
+	    /*content: "\f01d";
+	    content: "\f04b";*/
+	    color: #ffffff;
+	    width: 65px;
+	    background: none;
+	    border-radius: 0;
+	    text-align: center;
+	    padding: 0;
+	    border-top: 18px solid transparent;
+	    border-bottom: 18px solid transparent;
+	    border-left: 32px solid #ffffff;
+	    content: "";
+	}
+
+	@media (max-width: 49.99em) {
+	    .vid-tb .o-grid__item:nth-child(-n+2) a:before {
+	        top: 28px;
+	        left: 59px;
+	        border-top: 8px solid transparent;
+	        border-bottom: 8px solid transparent;
+	        border-left: 12px solid #ffffff;
+	    }
+	}
+
+	.o-grid__item .media-panel img {
+	    height: 12em;
+	    width: 100%;
+	    object-fit: cover;
+	}
+
+	@media (max-width: 49.99em) {
+	    .o-grid__item .media-panel img {
+	        width: 126px;
+	        height: 100%
+		}
+	}
+</style>
