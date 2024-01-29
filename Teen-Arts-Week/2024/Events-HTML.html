@@ -27,21 +27,23 @@
           <param name="cms_type" value="widget" />
         </object>
       </div>
-      <object codetype="CMSInlineControl" style="display: none" type="widget">
+      <object codetype="CMSInlineControl" style="display: none" type="Widget">
         <param name="name" value="pageHeader_widget" />
-        <param name="pagetitle" value="Events+in+all+Five+Boroughs" />
+        <param name="Visible" value="True" />
         <param
-          name="pageprefix"
-          value="%3cstrong%3eMarch+2-8%2c+2020%3c%2fstrong%3e%3cbr%3e%23TeenArtsWeek"
+          name="PagePrefix"
+          value="%3cstrong%3eMarch+11-17%2c+2024%3c%2fstrong%3e%3cbr%3e%23TeenArtsWeek"
         />
-        <param name="visible" value="True" />
         <param
-          name="pagesuffix"
+          name="PageTitle"
+          value="Free+Events+for+Teens+in+all+Five+Boroughs"
+        />
+        <param
+          name="PageSuffix"
           value="%3cstrong%3eR.S.V.P.+to+attend+and+receive+an+email+reminder+about+your+events%3c%2fstrong%3e"
         />
         <param name="widget_displayname" value="Page+Header+(Title)" />
-        <param name="width" value="" />
-        <param name="height" value="" />
+        <param name="cms_type" value="widget" />
       </object>
     </div>
   </div>
@@ -54,21 +56,19 @@
 
       <div class="taw-cats button-group">
         <strong>Categories:&nbsp;</strong>
-        <a class="btn" data-text="dance" href="#">Advocacy</a>
-        <a class="btn" data-text="dance" href="#">Arts Education</a>
         <a class="btn" data-text="dance" href="#">Dance</a>
-        <a class="btn" data-text="film" href="#">Film</a>
-        <a class="btn" data-text="dance" href="#">Museum Exhibition</a>
+        <a class="btn" data-text="free-admission" href="#">Free Admission</a>
+        <a class="btn" data-text="social-justice" href="#">Social Justice</a>
         <a class="btn" data-text="music" href="#">Music</a>
-        <a class="btn" data-text="poetry" href="#">Poetry</a>
-        <a class="btn" data-text="dance" href="#">Social Justice</a>
+        <a class="btn" data-text="literary-arts" href="#">Literary Arts</a>
+        <a class="btn" data-text="film" href="#">Film/Media</a>
         <a class="btn" data-text="theater" href="#">Theater</a>
-        <a class="btn" data-text="visual-art" href="#">Visual Art</a>
+        <a class="btn" data-text="visual-arts" href="#">Visual Arts</a>
         <a class="btn" data-text="college-readiness" href="#"
           >College Readiness</a
         >
-        <a class="btn" data-text="career-exploration" href="#"
-          >Career Exploration</a
+        <a class="btn" data-text="career-readiness" href="#"
+          >Career Readiness</a
         >
       </div>
       <strong>Day of week:&nbsp;</strong>
@@ -99,86 +99,49 @@
 </section>
 
 <section class="page-slice">
-  <div class="container-fluid" id="taw-events">
+  <div
+    class="container-fluid u-constrained u-constrained--narrow"
+    id="taw-events"
+  >
     <div class="row">
       <ul class="event-list">
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Brooklyn Ballet</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Brooklyn Ballet</h2>
 
                 <div class="org-address">
                   160 Schermerhorn Street<br />
                   Brooklyn, NY 11201
                 </div>
 
-                <div class="org-directions js-has-popup">
-                  <a class="btn js-popup js-popup-inline" href="#directions-92y"
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/i4QtJqVw33cxSw2m8"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-92y"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>86 St</div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>96 St [6]</div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>96 St [Q]</div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@brooklynballet</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
-                  Brooklyn Ballet School Open Level Teen Dance Classes
-                </div>
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Brooklyn Ballet School Open Level Teen Dance Class
+                </h3>
 
-                <div class="event-date">Sun, March 17</div>
+                <div class="event-date">Sun, March 17, 12-1 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
                 <p>
-                  Sunday 3/17, we’re excited to offer 2, 1-hour sample classes
-                  for teens, age 12-17 of all ages and abilities
-                </p>
-                <p>
-                  12-1 pm: Ballet<br />
-                  1-2 pm: Modern<br />
-                  2-3 pm: Q&A & Jam Session with current Brooklyn Ballet
-                  students.
+                  On Sunday, March 17, we’re excited to offer this 1-hour sample
+                  Ballet class for teens, age 12-17 of all ages and abilities.
                 </p>
 
                 <div class="taw-tags">
@@ -188,23 +151,11 @@
                 </div>
               </div>
 
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @brooklynballet
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @brooklynballet
-                </p>
-              </div>
-
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSe7VXZjKLADy46fgmlC4Efl2hUmlbfoDvWRadukQLjIUApEjA/viewform"
+                  href="https://forms.gle/6HcJK1QEe6pDJkk86"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -215,152 +166,170 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">New-York Historical Society</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Brooklyn Ballet</h2>
+
+                <div class="org-address">
+                  160 Schermerhorn Street<br />
+                  Brooklyn, NY 11201
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/i4QtJqVw33cxSw2m8"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@brooklynballet</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Brooklyn Ballet School Open Level Teen Modern Class
+                </h3>
+
+                <div class="event-date">Sun, March 17, 1-2 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  On Sunday, March 17, we’re excited to offer this 1-hour sample
+                  Modern class for teens, age 12-17 of all ages and abilities.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/gQwA9ePH18ZGHDPE6"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Brooklyn Ballet</h2>
+
+                <div class="org-address">
+                  160 Schermerhorn Street<br />
+                  Brooklyn, NY 11201
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/i4QtJqVw33cxSw2m8"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@brooklynballet</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Brooklyn Ballet School Q&A Jam Session with current Brooklyn
+                  Ballet students
+                </h3>
+
+                <div class="event-date">Sun, March 17, 2-3 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  On Sunday, March 17, we’re excited to offer this Q&A and Jam
+                  Session with current Brooklyn Ballet students and Teaching
+                  Artists. For teens 12-17 of all ages and abilities.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/GcyZad1ynsus9XVw9"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">New-York Historical Society</h2>
 
                 <div class="org-address">
                   170 Central Park West<br />
                   New York, NY 10024
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-historical-society"
+                    class="btn"
+                    href="https://maps.app.goo.gl/MbjL3WTGEKD35sU38"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-historical-society"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>34 St &ndash; Penn Station</div>
-
-                        <div class="circle red">
-                          <span class="line" style="margin-left: -1px">1</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">A</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">C</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">E</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Times Sq &ndash; 42 St</div>
-
-                        <div class="circle red">
-                          <span class="line" style="margin-left: -1px">1</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle purple">
-                          <span class="line">7</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-
-                        <div class="circle grey">
-                          <span class="line">S</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>42 St &ndash; Port Authority Bus Terminal</div>
-
-                        <div class="circle blue">
-                          <span class="line">A</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">C</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">E</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@nyhistory</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
-                  Free Museum Admission (must show high school ID and mention
-                  Teen Arts Week)
-                </div>
+              <div class="col-md-3">
+                <h3 class="event-title">Free Museum Admission</h3>
 
-                <div class="event-date">March 7-11, 2024</div>
+                <div class="event-date">March 12-17, 2024, 11 am-5 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
                 <p>
                   Teens get free museum admission to the New-York Historical
-                  Society by showing their high school ID and mentioning Teen
-                  Arts Week at our Visitor Services desk!
+                  Society during Teen Arts Week!
                 </p>
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Other</a>
+                    <a class="btn-pill" href="#">Free Admission</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Instagram:<br />
-                  @nyhistory
-                </p>
-
-                <p>
-                  X:<br />
-                  @nyhistory
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScNdIP57Q7N7GxxLX5DjizlOryOQU-2-bffFVPKBJw1ftTp1w/viewform"
+                  href="https://forms.gle/98SjzW6vTKBSH1np9"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -371,57 +340,27 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">NYC Arts in Education Roundtable</div>
+              <div class="col-md-3">
+                <h2 class="org-name">NYC Arts in Education Roundtable</h2>
 
-                <div class="org-address">Zoom</div>
+                <div class="org-address">Zoom Meeting</div>
 
                 <!-- <div class="org-directions js-has-popup">
 									<a
 										class="btn js-popup js-popup-inline"
 										href="#directions-urban1"
 										>Directions</a
-									>
-
-									<div class="mfp-hide">
-										<div
-											class="js-popup-inline-content popup-container"
-											id="directions-urban1"
-										>
-											<h3>Trains</h3>
-
-											<div class="station-wrapper">
-												<div>Grand Army Plaza</div>
-
-												<div class="circle red">
-													<span class="line">2</span>
-												</div>
-
-												<div class="circle red">
-													<span class="line">3</span>
-												</div>
-											</div>
-
-											<div class="station-wrapper">
-												<div>Eastern Pkwy &ndash; Brooklyn Museum</div>
-
-												<div class="circle red">
-													<span class="line">2</span>
-												</div>
-
-												<div class="circle red">
-													<span class="line">3</span>
-												</div>
-											</div>
-										</div>
-									</div>
+									>						
 								</div> -->
+                <div class="event-social">
+                  <p>@nycaier</p>
+                </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   #ItStartsWithTheArts: Advocacy Training 101
-                </div>
+                </h3>
 
                 <div class="event-date">Thu, March 14, 4:30-5:30 pm ET</div>
               </div>
@@ -450,41 +389,22 @@
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Advocacy</a>
-                    <a class="btn-pill" href="#">Arts Education</a>
                     <a class="btn-pill" href="#">Social Justice</a>
                     <a class="btn-pill" href="#">Dance</a>
                     <a class="btn-pill" href="#">Music</a>
                     <a class="btn-pill" href="#">Literary Arts</a>
-                    <a class="btn-pill" href="#">Film</a>
+                    <a class="btn-pill" href="#">Film/Media</a>
                     <a class="btn-pill" href="#">Theater</a>
-                    <a class="btn-pill" href="#">Visual Art</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @nycaier
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @nycaier
-                </p>
-
-                <p>
-                  X:<br />
-                  @nycaier
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScV4PFDleZEpx8hCT9qPDIaAfPa1C6amFcHJEWE7501qaQ85Q/viewform"
+                  href="https://forms.gle/oTYQ87SdkvGYbDs47"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -495,8 +415,8 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">The Paley Center for Media</div>
+              <div class="col-md-3">
+                <h2 class="org-name">The Paley Center for Media</h2>
 
                 <div class="org-address">
                   25 W 52nd Street<br />
@@ -504,58 +424,24 @@
                   New York, NY 10019
                 </div>
 
-                <div class="org-directions js-has-popup">
-                  <a class="btn js-popup js-popup-inline" href="#directions-92y"
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/MXUjEDjnSqAQ9Yii8"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-92y"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>86 St</div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>96 St [6]</div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>96 St [Q]</div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@paleycenter</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   Afterschool Special ‘Teens on Screens’
-                </div>
+                </h3>
 
                 <div class="event-date">Wed, March 13, 4:15-6 pm</div>
               </div>
@@ -565,37 +451,25 @@
                   ABC Afterschool Specials were an anthology television series
                   that aired from 1972, to 1997, in the late afternoon on
                   weekdays. Most episodes were dramatically presented
-                  situations, often controversial, of interest to young people.
-                  As a nod to the afterschool special, we invited you to come
-                  watch a selection of TV shows curated by local high school
-                  students in NYC that showcase programs that resonate with
-                  youth today. Snacks and conversation will be provided!
+                  situations, often controversial, and of interest to young
+                  people. As a nod to the afterschool special, we invite you to
+                  come watch a selection of TV shows curated by local high
+                  school students in NYC that showcase programs that resonate
+                  with youth today. Snacks and conversation will be provided!
                 </p>
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Film</a>
+                    <a class="btn-pill" href="#">Film/Media</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Instagram:<br />
-                  @paleycenter
-                </p>
-
-                <p>
-                  TikToc:<br />
-                  @thepaleycenter
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfXmV7rG6InXwGYB_ZHyEN5mr8yc0lhjcXAQquCLKuGOMRVig/viewform"
+                  href="https://forms.gle/bRngk21iAZiisLiy7"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -603,11 +477,11 @@
             </div>
           </div>
         </li>
-        <li>
+        <!-- <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Rosie’s Theater Kids</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Rosie’s Theater Kids</h2>
 
                 <div class="org-address">
                   The Maravel Arts Center<br />
@@ -615,98 +489,20 @@
                   New York, NY 10036
                 </div>
 
-                <div class="org-directions js-has-popup">
-                  <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-free-arts"
-                    >Directions</a
-                  >
+                <div class="org-directions">
+                  <a class="btn" href="#directions-free-arts">Directions</a>
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-free-arts"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>Times Sq &ndash; 42 St</div>
-
-                        <div class="circle red">
-                          <span class="line" style="margin-left: -1px">1</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle purple">
-                          <span class="line">7</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-
-                        <div class="circle grey">
-                          <span class="line">S</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>42 St &ndash; Port Authority Bus Terminal</div>
-
-                        <div class="circle blue">
-                          <span class="line">A</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">C</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">E</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>42 St &ndash; Bryant Park</div>
-
-                        <div class="circle orange">
-                          <span class="line">B</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">D</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">F</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">M</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>
+                    Instagram:<br />
+                    @rtkids
+                  </p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">TK</div>
+              <div class="col-md-3">
+                <h3 class="event-title">TK</h3>
 
                 <div class="event-date">TK</div>
               </div>
@@ -731,13 +527,6 @@
                 </div>
               </div>
 
-              <div class="col-md-2 event-social">
-                <p>
-                  Instagram:<br />
-                  @rtkids
-                </p>
-              </div>
-
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
@@ -749,130 +538,65 @@
               </div>
             </div>
           </div>
-        </li>
+        </li> -->
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Climate Museum</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Climate Museum</h2>
 
                 <div class="org-address">
                   105 Wooster St<br />
                   New York, NY 10012
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-urban1"
+                    class="btn"
+                    href="https://maps.app.goo.gl/NWDegLZaLtukegQt6"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-urban1"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>23 St</div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">W</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>18 St</div>
-
-                        <div class="circle red">
-                          <span class="line" style="margin-left: -1px">1</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>14 St &ndash; Union Sq</div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">W</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@climatemuseum</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   Visits to the Climate Museum’s newest exhibition
-                </div>
+                </h3>
 
-                <div class="event-date">Wed-Sun, 1-6 pm</div>
+                <div class="event-date">March 15-17, 1-6 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
-                <p>TK</p>
+                <p>
+                  The exhibition, which <em>Time Out New York</em> has listed as
+                  one of the “best museum exhibitions in NYC right now” explores
+                  the fossil fuel industry’s history of racism and deception and
+                  spotlights the success of the environmental and climate
+                  justice movement in resisting and reversing the industry’s
+                  harms. Students will experience a mixture of art, learning,
+                  and climate action opportunities to help visitors engage in
+                  the fight for a climate-safe and just future.
+                </p>
 
                 <div class="taw-tags">
                   <p>
                     <a class="btn-pill" href="#">Social Justice</a>
-                    <a class="btn-pill" href="#">Visual Art</a>
-                    <a class="btn-pill" href="#">Museum Exhibition</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @climatemuseum
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @climatemuseum
-                </p>
-
-                <p>
-                  X:<br />
-                  @climatemuseum
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfIw1WhiYTqQHJ8RoOARmDyEfQcHuRM2yVErjni0Q7rPSWHRw/viewform"
+                  href="https://forms.gle/pmva1kA2AqakNokD6"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -883,147 +607,24 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">ArtsConnection Teen Programs</div>
+              <div class="col-md-3">
+                <h2 class="org-name">ArtsConnection Teen Programs</h2>
 
                 <div class="org-address">TK</div>
 
-                <div class="org-directions js-has-popup">
-                  <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-bkmuseum"
-                    >Directions</a
-                  >
+                <div class="org-directions">
+                  <a class="btn" href="#directions-bkmuseum">Directions</a>
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-bkmuseum"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>Eastern Pkwy &ndash; Brooklyn Museum</div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@artsconnection</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
-                  OnTRaC: College & Career Readiness
-                </div>
+              <div class="col-md-3">
+                <h3 class="event-title">Teen Reviewers and Critics (TRaC)</h3>
 
-                <div class="event-date">
-                  Tue & Thu, March 26-May 16, 4:30-6:30 pm
-                </div>
-              </div>
-
-              <div class="col-md-4 event-desc">
-                <p>
-                  Create your path to a career in the arts! OnTRaC is a FREE
-                  after-school program where teens learn how to prepare
-                  themselves for a career in the arts. Teens meet to learn about
-                  the college application process and develop their skills in
-                  leadership for future opportunities. Teens who successfully
-                  complete the program receive a $140 stipend. Inquire at your
-                  school for possible credit.
-                </p>
-
-                <div class="taw-tags">
-                  <p>
-                    <a class="btn-pill" href="#">Career Exploration</a>
-                    <a class="btn-pill" href="#">College Readiness</a>
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @artsconnection
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @artsconnection
-                </p>
-
-                <p>
-                  X:<br />
-                  @artsconnection
-                </p>
-              </div>
-
-              <div class="col-md-1 event-btn">
-                <a
-                  class="inline-button"
-                  data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSd_9xh3tjLUYxpCfo71yFgxInoIq6PdHWyEeOnD43puqA8lrQ/viewform"
-                  target="_blank"
-                  >R.S.V.P. to attend</a
-                >
-              </div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">ArtsConnection Teen Programs</div>
-
-                <div class="org-address">TK</div>
-
-                <div class="org-directions js-has-popup">
-                  <a class="btn js-popup js-popup-inline" href="#directions-icp"
-                    >Directions</a
-                  >
-
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-icp"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>Delancey St / Essex St</div>
-
-                        <div class="circle orange">
-                          <span class="line">F</span>
-                        </div>
-
-                        <div class="circle brown">
-                          <span class="line">J</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">M</span>
-                        </div>
-
-                        <div class="circle brown">
-                          <span class="line">Z</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-2">
-                <div class="event-title">Teen Reviewers and Critics (TRaC)</div>
-
-                <div class="event-date">March 11-May 10, 4:30-6:30 pm</div>
+                <div class="event-date">Mon, March 11, 4:30-6 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
@@ -1032,43 +633,26 @@
                   everyone. We offer FREE writing workshops in the visual arts,
                   music, theater, dance, media, multi-arts and film. A once a
                   week, afterschool program that takes place over ten weeks in
-                  the Fall or Spring. School credit awarded at some schools —
-                  inquire at your school.
+                  the Fall or Spring. In some cases school credit can be awarded
+                  – inquire at your school.
                 </p>
 
                 <div class="taw-tags">
                   <p>
                     <a class="btn-pill" href="#">Dance</a>
                     <a class="btn-pill" href="#">Music</a>
-                    <a class="btn-pill" href="#">Film</a>
+                    <a class="btn-pill" href="#">Film/Media</a>
                     <a class="btn-pill" href="#">Theater</a>
-                    <a class="btn-pill" href="#">Visual Art</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @artsconnection
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @artsconnection
-                </p>
-
-                <p>
-                  X:<br />
-                  @artsconnection
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdHxk1yR65ZJdhbL_PhknnYCWzXZBg3YZ5Y-MRz4pOXxGyRAA/viewform"
+                  href="https://forms.gle/jLPRoki3BMALMEbR7"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -1079,105 +663,26 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">ArtsConnection Teen Programs</div>
+              <div class="col-md-3">
+                <h2 class="org-name">ArtsConnection Teen Programs</h2>
 
                 <div class="org-address">TK</div>
 
-                <div class="org-directions js-has-popup">
-                  <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-mmdg"
-                    >Directions</a
-                  >
+                <div class="org-directions">
+                  <a class="btn" href="#directions-icp">Directions</a>
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-mmdg"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>Nevins St</div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Fulton St</div>
-
-                        <div class="circle lime">
-                          <span class="line">G</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Atlantic Av &ndash; Barclays Ctr</div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">B</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">D</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@artsconnection</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
-                  Teens Curate Teens Curators (TCT Curators)
-                </div>
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  TCT Curators (Teens Curate Teens Curators)
+                </h3>
 
-                <div class="event-date">
-                  Wed, February 7-May 15, 4:30-6:30 pm
-                </div>
+                <div class="event-date">Wed, March 13, 4:30-6:30 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
@@ -1200,34 +705,19 @@
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Visual Art</a>
-                    <a class="btn-pill" href="#">Other</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                    <a class="btn-pill" href="#">Literary Arts</a>
+                    <a class="btn-pill" href="#">College Readiness</a>
+                    <a class="btn-pill" href="#">Career Readiness</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @artsconnection
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @artsconnection
-                </p>
-
-                <p>
-                  X:<br />
-                  @artsconnection
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSevM6vk5R7YpS6Qs8evCTUlrHjOeHEiUXlScpBVY82rVBNFDw/viewform"
+                  href="https://forms.gle/YMKHvJ2ufZdR9xqy8"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -1238,110 +728,33 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">
-                  Lincoln Center for the Performing Arts
-                </div>
+              <div class="col-md-3">
+                <h2 class="org-name">Lincoln Center for the Performing Arts</h2>
 
                 <div class="org-address">
                   Alice Tully Hall<br />
-                  Lincoln Center<br />
                   1941 Broadway at W 65th St<br />
                   New York, NY 10023
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-mmdg"
+                    class="btn"
+                    href="https://maps.app.goo.gl/TcJwwJ3vpMsGzGkm7"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-mmdg"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>Nevins St</div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Fulton St</div>
-
-                        <div class="circle lime">
-                          <span class="line">G</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Atlantic Av &ndash; Barclays Ctr</div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">B</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">D</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@LincolnCenter</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
-                  Kid Koala’s The Storyville Mosquito
-                </div>
+              <div class="col-md-3">
+                <h3 class="event-title">Kid Koala’s The Storyville Mosquito</h3>
 
-                <div class="event-date">Fri, March 15, 2 pm</div>
+                <div class="event-date">Wed, March 15, 2 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
@@ -1355,41 +768,24 @@
                   and screen, incorporating miniature sets, live puppetry,
                   cinematography, and live music by musician and scratch DJ Kid
                   Koala with a string trio. Don’t miss a funny, emotive,
-                  Chaplin-esque live theater experience that’s fun for all ages!
+                  Chaplin-esque live theater experience that’s fun for everyone!
                 </p>
 
                 <div class="taw-tags">
                   <p>
                     <a class="btn-pill" href="#">Music</a>
                     <a class="btn-pill" href="#">Theater</a>
-                    <a class="btn-pill" href="#">Visual Art</a>
-                    <a class="btn-pill" href="#">Film</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                    <a class="btn-pill" href="#">Film/Media</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @LincolnCenter
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @LincolnCenter
-                </p>
-
-                <p>
-                  X:<br />
-                  @LincolnCenter
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSchP7L1E6KMUcJHQcXWAsuclTMigGxddgvhAj1mwWhF2bMMiw/viewform"
+                  href="https://forms.gle/D7Wu9vLzMptUVvoR8"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -1397,11 +793,11 @@
             </div>
           </div>
         </li>
-        <li>
+        <!-- <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Queens Museum</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Queens Museum</h2>
 
                 <div class="org-address">
                   New York City Building<br />
@@ -1409,108 +805,33 @@
                   Queens, NY 11368
                 </div>
 
-                <div class="org-directions js-has-popup">
-                  <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-sing"
-                    >Directions</a
-                  >
+                <div class="org-directions">
+                  <a class="btn" href="#directions-sing">Directions</a>
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-sing"
-                    >
-                      <h3>Trains</h3>
+                <div class="event-social">
+                  <p>
+                    Facebook:<br />
+                    @QueensMuseum
+                  </p>
 
-                      <div class="station-wrapper">
-                        <div>34 St &ndash; Penn Station</div>
+                  <p>
+                    Instagram:<br />
+                    @QueensMuseum<br />
+                    @queensteensinstitute
+                  </p>
 
-                        <div class="circle red">
-                          <span class="line" style="margin-left: -1px">1</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">A</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">C</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">E</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Times Sq &ndash; 42 St</div>
-
-                        <div class="circle red">
-                          <span class="line" style="margin-left: -1px">1</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle red">
-                          <span class="line">3</span>
-                        </div>
-
-                        <div class="circle purple">
-                          <span class="line">7</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">Q</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">R</span>
-                        </div>
-
-                        <div class="circle grey">
-                          <span class="line">S</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>42 St &ndash; Port Authority Bus Terminal</div>
-
-                        <div class="circle blue">
-                          <span class="line">A</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">C</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">E</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <p>
+                    X:<br />
+                    @QueensMuseum
+                  </p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   Teens Mixer (hosted by the Queens Teens Institute)
-                </div>
+                </h3>
 
                 <div class="event-date">Sat, March 23, 5-7 pm</div>
               </div>
@@ -1530,27 +851,9 @@
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Visual Art</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @QueensMuseum
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @QueensMuseum<br />
-                  @queensteensinstitute
-                </p>
-
-                <p>
-                  X:<br />
-                  @QueensMuseum
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
@@ -1564,81 +867,43 @@
               </div>
             </div>
           </div>
-        </li>
+        </li> -->
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Dancewave</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Dancewave</h2>
 
                 <div class="org-address">
                   182 Fourth Ave<br />
                   Brooklyn, NY 11217
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-studio"
+                    class="btn"
+                    href="https://maps.app.goo.gl/Axrn6tyHF9jaYs9R6"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-studio"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>125 St [A/B/C/D]</div>
-
-                        <div class="circle blue">
-                          <span class="line">A</span>
-                        </div>
-
-                        <div class="circle blue">
-                          <span class="line">C</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">B</span>
-                        </div>
-
-                        <div class="circle orange">
-                          <span class="line">D</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>125 St [4/5/6]</div>
-
-                        <div class="circle green">
-                          <span class="line">4</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@dancewave</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">Dancewave Technique Classes</div>
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Dancewave Technique Classes: Ballet Technique (Ages 13-15)
+                </h3>
 
-                <div class="event-date">Wed, March 13-16, 4-6:30 pm</div>
+                <div class="event-date">Wed, March 13, 5:15-6:45 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
                 <p>
-                  Dance is more than just physical movement. At Dancewave, we
+                  "Dance is more than just physical movement. At Dancewave, we
                   cultivate participatory learning and decision-making, empathy
                   and self-expression through dance. We offer weekly technique
                   classes in Ballet, Contemporary and Hip Hop as well as a year
@@ -1651,7 +916,7 @@
                   College & Beyond that includes panel discussions, networking,
                   college fairs and audition opportunities. A Q&A session and
                   important information about this event will be available at
-                  Dancewave during Teen Arts Week.
+                  Dancewave during Teen Arts Week."
                 </p>
 
                 <div class="taw-tags">
@@ -1662,18 +927,11 @@
                 </div>
               </div>
 
-              <div class="col-md-2 event-social">
-                <p>
-                  Instagram:<br />
-                  @dancewave
-                </p>
-              </div>
-
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfj0h308N5TuuDBxwDhTDg0zi4BQxE7ErQWSJ_tpOCE3Vfp2w/viewform"
+                  href="https://forms.gle/16KKvu9EcwADMJR4A"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -1684,10 +942,295 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">
-                  Lincoln Center for the Performing Arts
+              <div class="col-md-3">
+                <h2 class="org-name">Dancewave</h2>
+
+                <div class="org-address">
+                  182 Fourth Ave<br />
+                  Brooklyn, NY 11217
                 </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/Axrn6tyHF9jaYs9R6"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@dancewave</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Dancewave Technique Classes: Ballet Technique (Ages 16-18)
+                </h3>
+
+                <div class="event-date">Thu, March 14, 5:30-7 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  "Dance is more than just physical movement. At Dancewave, we
+                  cultivate participatory learning and decision-making, empathy
+                  and self-expression through dance. We offer weekly technique
+                  classes in Ballet, Contemporary and Hip Hop as well as a year
+                  long pre-professional youth company program.
+                </p>
+
+                <p>
+                  For high school students, Dancewave offers an annual college
+                  readiness event held in October called Dancewave through
+                  College & Beyond that includes panel discussions, networking,
+                  college fairs and audition opportunities. A Q&A session and
+                  important information about this event will be available at
+                  Dancewave during Teen Arts Week."
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                    <a class="btn-pill" href="#">College Readiness</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/tKcfmPdCKR6Bihvt7"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Dancewave</h2>
+
+                <div class="org-address">
+                  182 Fourth Ave<br />
+                  Brooklyn, NY 11217
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/Axrn6tyHF9jaYs9R6"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@dancewave</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Dancewave Technique Classes: Beg/Int Hip Hop (Ages 13-15)
+                </h3>
+
+                <div class="event-date">Fri, March 15, 5:30-6:30 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  "Dance is more than just physical movement. At Dancewave, we
+                  cultivate participatory learning and decision-making, empathy
+                  and self-expression through dance. We offer weekly technique
+                  classes in Ballet, Contemporary and Hip Hop as well as a year
+                  long pre-professional youth company program.
+                </p>
+
+                <p>
+                  For high school students, Dancewave offers an annual college
+                  readiness event held in October called Dancewave through
+                  College & Beyond that includes panel discussions, networking,
+                  college fairs and audition opportunities. A Q&A session and
+                  important information about this event will be available at
+                  Dancewave during Teen Arts Week."
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                    <a class="btn-pill" href="#">College Readiness</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/fZXocWbJsEicNNgd9"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Dancewave</h2>
+
+                <div class="org-address">
+                  182 Fourth Ave<br />
+                  Brooklyn, NY 11217
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/Axrn6tyHF9jaYs9R6"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@dancewave</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Dancewave Technique Classes: Contemporary Technique (Ages
+                  16-18)
+                </h3>
+
+                <div class="event-date">Sat, March 16, 10:30 am-12 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  "Dance is more than just physical movement. At Dancewave, we
+                  cultivate participatory learning and decision-making, empathy
+                  and self-expression through dance. We offer weekly technique
+                  classes in Ballet, Contemporary and Hip Hop as well as a year
+                  long pre-professional youth company program.
+                </p>
+
+                <p>
+                  For high school students, Dancewave offers an annual college
+                  readiness event held in October called Dancewave through
+                  College & Beyond that includes panel discussions, networking,
+                  college fairs and audition opportunities. A Q&A session and
+                  important information about this event will be available at
+                  Dancewave during Teen Arts Week."
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                    <a class="btn-pill" href="#">College Readiness</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/NnbLkWUViqGPcJrD8"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Dancewave</h2>
+
+                <div class="org-address">
+                  182 Fourth Ave<br />
+                  Brooklyn, NY 11217
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/Axrn6tyHF9jaYs9R6"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@dancewave</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Dancewave Technique Classes: Contemporary Technique (Ages
+                  13-15)
+                </h3>
+
+                <div class="event-date">Sat, March 16, 1:45-3:15 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  "Dance is more than just physical movement. At Dancewave, we
+                  cultivate participatory learning and decision-making, empathy
+                  and self-expression through dance. We offer weekly technique
+                  classes in Ballet, Contemporary and Hip Hop as well as a year
+                  long pre-professional youth company program.
+                </p>
+
+                <p>
+                  For high school students, Dancewave offers an annual college
+                  readiness event held in October called Dancewave through
+                  College & Beyond that includes panel discussions, networking,
+                  college fairs and audition opportunities. A Q&A session and
+                  important information about this event will be available at
+                  Dancewave during Teen Arts Week."
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                    <a class="btn-pill" href="#">College Readiness</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/veDqBVnCshrynyLHA"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Lincoln Center for the Performing Arts</h2>
 
                 <div class="org-address">
                   Samuel Rehearsal Studio (Workshop) & David Rubenstein Atrium
@@ -1696,48 +1239,24 @@
                   New York, NY 10023
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-point"
+                    class="btn"
+                    href="https://maps.app.goo.gl/XbgTwo9kvjrtxuNu5"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-point"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>Hunts Point Av</div>
-
-                        <div class="circle green">
-                          <span class="line">6</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>Simpson St</div>
-
-                        <div class="circle red">
-                          <span class="line">2</span>
-                        </div>
-
-                        <div class="circle green">
-                          <span class="line">5</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@LincolnCenter</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   ¡VAYA! Joe Bataan Pre-show Workshop & Performance
-                </div>
+                </h3>
 
                 <div class="event-date">
                   Fri, March 15, 5-7 pm (workshop), 7:30-9 pm (show)
@@ -1763,28 +1282,11 @@
                 </div>
               </div>
 
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @LincolnCenter
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @LincolnCenter
-                </p>
-
-                <p>
-                  X:<br />
-                  @LincolnCenter
-                </p>
-              </div>
-
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfDTJggQxGlIHw_o3OSPdStIboXaRPEs988OgCOEAXbkJHSuw/viewform"
+                  href="https://forms.gle/SqXyi37JoDARCyoS8"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -1795,56 +1297,32 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Open Source Gallery</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Open Source Gallery</h2>
 
                 <div class="org-address">
                   306 17th Street<br />
                   Brooklyn, NY 11215
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-point"
+                    class="btn"
+                    href="https://maps.app.goo.gl/UTXxT7mLJEGxatTYA"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-point"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>36 Av</div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">W</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>21 St &ndash; Queensbridge</div>
-
-                        <div class="circle orange">
-                          <span class="line">F</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@opensourcegallery</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   Your Social Pharmacy at Open Source Gallery
-                </div>
+                </h3>
 
                 <div class="event-date">Wed, March 13, 3:30-5:30 pm</div>
               </div>
@@ -1874,36 +1352,16 @@
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Visual Art</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Facebook:<br />
-                  @opensourcegallery<br />
-                  @koko_opensource
-                </p>
-
-                <p>
-                  Instagram:<br />
-                  @opensourcegallery<br />
-                  @koko_opensource
-                </p>
-
-                <p>
-                  X:<br />
-                  @opensourcegallery<br />
-                  @koko_opensource
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSewfPbg3h-cEOJ00qCQgySkyeDaAka2XMljeRSBnDKIwZv87A/viewform"
+                  href="https://forms.gle/gcTa6yYWqG6mVpNY6"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
@@ -1914,58 +1372,34 @@
         <li>
           <div class="container">
             <div class="row">
-              <div class="col-md-2">
-                <div class="org-name">Hill Art Foundation</div>
+              <div class="col-md-3">
+                <h2 class="org-name">Hill Art Foundation</h2>
 
                 <div class="org-address">
                   239 10th Ave 3rd floor<br />
                   New York, NY 10001
                 </div>
 
-                <div class="org-directions js-has-popup">
+                <div class="org-directions">
                   <a
-                    class="btn js-popup js-popup-inline"
-                    href="#directions-point"
+                    class="btn"
+                    href="https://maps.app.goo.gl/amHRtDWz7c7f3XNs5"
+                    target="_blank"
                     >Directions</a
                   >
+                </div>
 
-                  <div class="mfp-hide">
-                    <div
-                      class="js-popup-inline-content popup-container"
-                      id="directions-point"
-                    >
-                      <h3>Trains</h3>
-
-                      <div class="station-wrapper">
-                        <div>36 Av</div>
-
-                        <div class="circle yellow">
-                          <span class="line">N</span>
-                        </div>
-
-                        <div class="circle yellow">
-                          <span class="line">W</span>
-                        </div>
-                      </div>
-
-                      <div class="station-wrapper">
-                        <div>21 St &ndash; Queensbridge</div>
-
-                        <div class="circle orange">
-                          <span class="line">F</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="event-social">
+                  <p>@hillartfoundation</p>
                 </div>
               </div>
 
-              <div class="col-md-2">
-                <div class="event-title">
+              <div class="col-md-3">
+                <h3 class="event-title">
                   Teen Tour: Highlights from the Hill Collection
-                </div>
+                </h3>
 
-                <div class="event-date">Sat, March 16, 1-2 pm</div>
+                <div class="event-date">Sat, March 16, 1 pm</div>
               </div>
 
               <div class="col-md-4 event-desc">
@@ -2011,23 +1445,605 @@
 
                 <div class="taw-tags">
                   <p>
-                    <a class="btn-pill" href="#">Visual Art</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
                   </p>
                 </div>
-              </div>
-
-              <div class="col-md-2 event-social">
-                <p>
-                  Instagram:<br />
-                  @hillartfoundation
-                </p>
               </div>
 
               <div class="col-md-1 event-btn">
                 <a
                   class="inline-button"
                   data-itemid="1"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSewfPbg3h-cEOJ00qCQgySkyeDaAka2XMljeRSBnDKIwZv87A/viewform"
+                  href="https://forms.gle/aDfeTvbadue3Yk5r7"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Bronx River Art Center</h2>
+
+                <div class="org-address">
+                  1087 East Tremont Ave<br />
+                  Bronx, NY 10460
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/WU6PR6Wuy99o1PVy7"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@bronxriverartcenter</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">A Taste of BRAC Classes: Drawing</h3>
+
+                <div class="event-date">Mon, March 11, 4-6 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  We are offering for participants to take our after-school art
+                  classes. For Teen Arts Week 2024, the focus will be on
+                  environmental and social justice concerns.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Social Justice</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/7VgbfCqSqCDw3f5X7"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Bronx River Art Center</h2>
+
+                <div class="org-address">
+                  1087 East Tremont Ave<br />
+                  Bronx, NY 10460
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/WU6PR6Wuy99o1PVy7"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@bronxriverartcenter</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">A Taste of BRAC Classes: Ceramics</h3>
+
+                <div class="event-date">Tue, March 12, 4-6 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  We are offering for participants to take our after-school art
+                  classes. For Teen Arts Week 2024, the focus will be on
+                  environmental and social justice concerns.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Social Justice</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/zUMXC7cDJsggpiom8"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Bronx River Art Center</h2>
+
+                <div class="org-address">
+                  1087 East Tremont Ave<br />
+                  Bronx, NY 10460
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/WU6PR6Wuy99o1PVy7"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@bronxriverartcenter</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  A Taste of BRAC Classes: Digital Art & Illustration
+                </h3>
+
+                <div class="event-date">Wed, March 13, 4-6 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  We are offering for participants to take our after-school art
+                  classes. For Teen Arts Week 2024, the focus will be on
+                  environmental and social justice concerns.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Social Justice</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/Av4Do6HunUUkSxFF6"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Bronx River Art Center</h2>
+
+                <div class="org-address">
+                  1087 East Tremont Ave<br />
+                  Bronx, NY 10460
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/WU6PR6Wuy99o1PVy7"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@bronxriverartcenter</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">A Taste of BRAC Classes: Painting</h3>
+
+                <div class="event-date">Thu, March 14, 4:30-6:30 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  We are offering for participants to take our after-school art
+                  classes. For Teen Arts Week 2024, the focus will be on
+                  environmental and social justice concerns.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Social Justice</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/o2HnbS19kCTi9Qdb6"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Reel Works</h2>
+
+                <div class="org-address">
+                  540 President St #2F<br />
+                  Brooklyn, NY 11215
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/yck6Dvhw8fna6as29"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@reelworks</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">Film School Friday</h3>
+
+                <div class="event-date">Fri, March 15, 4:30-6:30 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  Film School Friday is a great resource to hone your skills in
+                  screenwriting, editing, and cinematography with our tutors.
+                  You’ll also be able to connect with other young filmmakers
+                  within the space and get more involved with the Reel Works
+                  community.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Film/Media</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="https://forms.gle/XiWjfvHwsoBzu1ZZ9"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">The Metropolitan Museum of Art</h2>
+
+                <div class="org-address">
+                  Uris Center for Education<br />
+                  1000 5th Ave Ground Floor<br />
+                  New York, NY 10028
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/1oMRbRBPxvHZRQba8"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@metteens</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">Teen Friday</h3>
+
+                <div class="event-date">Fri, March 15, 4:30-6:30 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  Come on over to The Met for Teen Fridays — the place to be
+                  creative, have snacks, and meet other teens with similar and
+                  different interests. Explore passions, ideas, and new
+                  activities. Drop in to:
+                </p>
+
+                <ul>
+                  <li>join in teen-centered activities planned by teens</li>
+                  <li>hang out and listen to music in a stress-free space</li>
+                  <li>
+                    meet and collaborate with teens and creative professionals
+                  </li>
+                  <li>
+                    get creative in an open studio: hone your skills and
+                    experiment with fashion, design, writing, performance,
+                    music, art, and more.
+                  </li>
+                </ul>
+
+                <p>For teens at all levels of expertise and interest.</p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                    <a class="btn-pill" href="#">College Readiness</a>
+                    <a class="btn-pill" href="#">Career Readiness</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="#"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">Guggenheim Museum</h2>
+
+                <div class="org-address">
+                  1071 5th Ave<br />
+                  New York, NY 10128
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/nCbDRph1swE1ppfn7"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@guggenheim</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  GuggTeens Sustainable Studio and Sketching Session
+                </h3>
+
+                <div class="event-date">Sun, March 17, 2-5 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  Teens (and their friends and family) are welcome to attend
+                  this open house for ALL ages (with exclusive TEENS-ONLY
+                  spaces, made by teens, for teens!) During the Sustainable
+                  Studio, high school students interested in art-making and
+                  sustainability will expand their art skills or portfolio while
+                  cultivating an environmentally conscious studio practice. We
+                  will also have Sketching Sessions for teens to connect with
+                  others and explore current exhibitions through drawing! No
+                  art-making experience is necessary. All are welcome, so
+                  R.S.V.P. here to save your spot, but additional guests can
+                  also R.S.V.P. at the check-in table during the event!
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Social Justice</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                    <a class="btn-pill" href="#">Film/Media</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="#"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">The Center for Urban Pedagogy</h2>
+
+                <div class="org-address">
+                  540 President St #2F<br />
+                  Brooklyn, NY 11215
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/yck6Dvhw8fna6as29"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@we_are_CUP</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Intro to Zine-Making: Me, My People, & My City
+                </h3>
+
+                <div class="event-date">Fri, March 15, 4:30-6:30 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  Zines, pronounced as ZEENS, are small booklets that can be
+                  created using a single sheet of paper. They are simple to make
+                  and reproduce and often combine words and images to narrate a
+                  story, making them a powerful tool for communication.
+                </p>
+
+                <p>
+                  Over the past century, zines have been used by marginalized
+                  groups to publish stories and perspectives that were not
+                  covered in mainstream media, uniting people and serving as a
+                  strong community-building tool. The Center for Urban Pedagogy
+                  (CUP) is offering a workshop called “Intro to Zine-Making: Me,
+                  My People, & My City.” In this workshop, we’ll create zines
+                  that tell stories about connections to people around you and
+                  NYC. Teaching Artist will guide participants through a
+                  community-building activity, which will help them connect with
+                  other artists who respond to a series of prompts to reflect on
+                  their connection to people and place (How have my people and
+                  my city influenced who I am? How have I influenced my people
+                  and my city?).
+                </p>
+
+                <p>
+                  The workshop is an excellent fit for those interested in
+                  storytelling and image-making (illustration, photography,
+                  collage). CUP will provide all the necessary art supplies for
+                  the participants. At the end of the workshop, each participant
+                  will create and share a one-page zine.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Literary Arts</a>
+                    <a class="btn-pill" href="#">Visual Arts</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="#"
+                  target="_blank"
+                  >R.S.V.P. to attend</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="org-name">92NY</h2>
+
+                <div class="org-address">
+                  1395 Lexington Ave<br />
+                  New York, NY 10128
+                </div>
+
+                <div class="org-directions">
+                  <a
+                    class="btn"
+                    href="https://maps.app.goo.gl/RF6361ugrSZKm1QPA"
+                    target="_blank"
+                    >Directions</a
+                  >
+                </div>
+
+                <div class="event-social">
+                  <p>@92ndstreety</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h3 class="event-title">
+                  Dancing the 92nd Street Y: A 150th Anniversary Celebration
+                </h3>
+
+                <div class="event-date">Tue, March 12, 7:30 pm</div>
+              </div>
+
+              <div class="col-md-4 event-desc">
+                <p>
+                  This landmark 150th Anniversary performance welcomes the
+                  legendary companies whose founders made these halls their home
+                  — Ailey II, Martha Graham Dance Company, and José Limón Dance
+                  Company. Bridging generations of pioneering dance makers, the
+                  evening pairs these dance companies with leading contemporary
+                  artists — Omar Román De Jesús, Jamar Roberts, and Hope Boykin
+                  — for a one-night-only celebration of the legendary
+                  choreographers and performers who shaped modern dance.
+                  Inspired by the past, transforming for the future, join us for
+                  this once-in-a-lifetime, only-at-92NY event.
+                </p>
+
+                <div class="taw-tags">
+                  <p>
+                    <a class="btn-pill" href="#">Dance</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-1 event-btn">
+                <a
+                  class="inline-button"
+                  data-itemid="1"
+                  href="#"
                   target="_blank"
                   >R.S.V.P. to attend</a
                 >
