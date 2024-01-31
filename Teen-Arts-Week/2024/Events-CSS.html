@@ -1,4 +1,12 @@
 <style type="text/css">
+  :root {
+    --92nyblue: #8eaae2;
+    --92nygreen: #21805e;
+    --92nypink: #edabba;
+    --92nymagenta: #990d61;
+    --92nyred: #ff5447;
+  }
+
   .page-header {
     padding-top: 1em;
   }
@@ -11,21 +19,22 @@
     background: #2a190f;
 }
 */
-
+  /* 
   .taw-cats .btn,
   #taw-events .inline-button {
-    background-color: #db358f;
-  }
+    background-color: var(--92nyred);
+    color: #000;
+  } */
 
   #row-filters .taw-cats-secondary {
-    background-color: #0797b7;
+    background-color: var(--92nymagenta);
   }
 
-  .taw-cats .btn:active,
+  /* .taw-cats .btn:active,
   .taw-cats .btn:hover {
     color: #fff;
-    background-color: #0797b7;
-  }
+    background-color: #000;
+  } */
 
   #taw-events-hero .o-figure div {
     /*background-image: url("/92StreetY/media/img/Institutional/CALL/Teen-Arts-Week-2020-logo-bg-sm2.jpg");  */
@@ -49,7 +58,7 @@
 
   .page-header__title,
   .page-header__suffix {
-    color: #0797b7;
+    color: var(--92nymagenta);
   }
 
   .page-header__prefix {
@@ -170,20 +179,20 @@
     margin: 0;
   }
 
-  #taw-events ul.event-list > li {
+  #taw-events ul.event-list>li {
     list-style: none;
     margin: 0;
     padding: 1.5em 1em;
     line-height: 1.25;
   }
 
-  #taw-events ul.event-list > li:nth-child(odd) {
+  /* #taw-events ul.event-list > li:nth-child(odd) {
     background: #b7e68f;
   }
 
   #taw-events ul.event-list > li:nth-child(even) {
     background: #d7f1c1;
-  }
+  } */
 
   /*taw-events ul.event-list li .org-name {
 	font-weight: bold;
@@ -213,7 +222,7 @@
   #taw-events ul.event-list li .event-title {
     font-weight: bold;
     margin-bottom: 0.2em;
-    color: #dc5067;
+    color: var(--92nymagenta);
   }
 
   #taw-events ul.event-list li .event-date {
@@ -221,12 +230,12 @@
   }
 
   #taw-events ul.event-list li .event-social {
-    font-size: 0.85em;
+    /* font-size: 0.85em; */
     margin-bottom: 0.5em;
   }
 
   #taw-events ul.event-list li .event-desc {
-    font-size: 0.85em;
+    /* font-size: 0.85em; */
     line-height: 1.5;
     margin-bottom: 1em;
   }
@@ -238,7 +247,7 @@
     margin: 0 auto;
     max-width: 420px;
     text-align: center;
-    font-size: 0.85em;
+    /* font-size: 0.85em; */
   }
 
   #taw-events ul.event-list li .event-btn p {
@@ -335,7 +344,7 @@
     padding: 3px 8px;
     margin: 15px 0;
     color: white;
-    background-color: #1d59b3;
+    background-color: var(--92nymagenta);
     border-radius: 5.5px;
     font-family: arial, sans-seirf;
     font-size: 13px;
@@ -343,16 +352,17 @@
     font-weight: bold;
   }
 
+  /* 
   @media (min-width: 768px) {
     #taw-events .container {
       width: 750px;
     }
-  }
+  } */
 
   @media (min-width: 1200px) {
-    #taw-events .container {
+    /* #taw-events .container {
       width: 1170px;
-    }
+    } */
 
     #taw-events .col-md-2 {
       width: 16.66667%;
@@ -384,5 +394,15 @@
     #taw-events .col-md-12 {
       float: left;
     }
+  }
+
+  /* START NEW STYLES 2024 */
+
+  #taw-events ul.event-list>li {
+    border-bottom: 1px solid #555;
+  }
+
+  .col-md-2.event-social {
+    display: none;
   }
 </style>
