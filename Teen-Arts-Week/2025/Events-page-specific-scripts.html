@@ -1,0 +1,134 @@
+<script type="text/javascript">
+    $("div.taw-tags a.btn-pill").click(function () {
+        var $this = $(this);
+        var linkText = $this.text();
+        ResetAll();
+        $this.closest("li").siblings().each(function () {
+            HideOrShowRowsByButtons($(this), linkText);
+        });
+        //ResetAltColors();
+    });
+
+    $("ul.event-list").find("a.inline-button").click(function (ev) {
+        ev.preventDefault();
+        var $this = $(this);
+        var href = $this.attr('href');
+        var itemId = $this.data("itemid")
+        window.open(href + "?itemid=" + itemId);
+    });
+
+    $("div#row-filters").find("a.btn").click(function (ev) {
+        ev.preventDefault();
+        SelectCategory($(this));
+    });
+
+    function SelectCategory(thecat) {
+        var linkText = thecat.text();
+        if (thecat.hasClass("taw-cats-secondary")) {
+            ResetAll();
+        } else {
+            ResetAll();
+            thecat.addClass("taw-cats-secondary");
+            $("div#taw-events").find("li").each(function () {
+                HideOrShowRowsByButtons($(this), linkText);
+            });
+            //ResetAltColors();
+        }
+    }
+
+    // function ResetAltColors() {
+    //     $('#taw-events ul.event-list > li:visible:odd').css('background', '#fff');
+    //     $('#taw-events ul.event-list > li:visible:even').css('background', '#fff');
+    // }
+
+    function HideOrShowRowsByButtons(liEl, linkText) {
+        var liWithClickedText = liEl.find("a.btn-pill").filter(function () {
+            return $(this).text() === linkText;
+        });
+        if (liWithClickedText.length > 0) {
+            liEl.show();
+        } else {
+            liEl.hide();
+        }
+    }
+
+    $("input#searchbox").on("keyup keypress paste", SearchChangeEvent);
+
+    var wto;
+    function SearchChangeEvent() {
+        var $this = $(this);
+        var thisText = $this.val();
+        clearTimeout(wto);
+        wto = setTimeout(function () {
+            $("div.event-desc").each(function () {
+                ResetDow();
+                HideOrShowRowsByChange($(this), thisText);
+            });
+            //ResetAltColors();
+        }, 500);
+    }
+
+    $("select#dow").on("change", DowChangeEvent);
+
+    function DowChangeEvent() {
+        var $this = $(this);
+        var thisText = $this.val();
+        ResetFilterButtons();
+        $("div.event-date").each(function () {
+            ResetSearchbox();
+            HideOrShowRowsByChange($(this), thisText);
+        });
+        //ResetAltColors();
+    }
+
+    function HideOrShowRowsByChange(thisDiv, thisText) {
+        ResetFilterButtons();
+        if (thisDiv.text().toUpperCase().indexOf(thisText.toUpperCase()) >= 0) {
+            thisDiv.closest("li").show();
+        } else {
+            thisDiv.closest("li").hide();
+        }
+    }
+
+    $("input#resetButton").click(function () {
+        ResetAll();
+    });
+
+    function ResetSearchbox() {
+        $("input#searchbox").off("keyup keypress paste").val("").on("keyup keypress paste", SearchChangeEvent);
+    }
+
+    function ResetDow() {
+        $("select#dow").off("change").val("").on("change", DowChangeEvent);
+    }
+
+    function ResetFilterButtons() {
+        $("div#row-filters").find("a.btn").removeClass("taw-cats-secondary");
+    }
+
+    function ResetAll() {
+        ResetFilterButtons();
+        ResetSearchbox();
+        ResetDow();
+        $("div#taw-events").find("li").each(function () {
+            $(this).show();
+        });
+        //ResetAltColors();
+    }
+
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+
+    $(document).ready(function () {
+        var category = getUrlParameter('cat');
+        var selCat = $("div#row-filters").find("a.btn[data-text='" + category + "']");
+        if (selCat.length > 0) {
+            SelectCategory(selCat);
+        }
+    });
+
+</script>
